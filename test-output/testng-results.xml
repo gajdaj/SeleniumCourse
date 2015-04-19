@@ -2,36 +2,36 @@
 <testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="34863" started-at="2015-04-19T13:10:00Z" finished-at="2015-04-19T13:10:35Z">
+  <suite name="Default suite" duration-ms="34219" started-at="2015-04-19T13:35:23Z" finished-at="2015-04-19T13:35:57Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="34863" started-at="2015-04-19T13:10:00Z" finished-at="2015-04-19T13:10:35Z">
-      <class name="pl.aa.test.AmericanAirline">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:pl.aa.test.AmericanAirline@16c0663d]" name="beforeTest" is-config="true" duration-ms="6378" started-at="2015-04-19T15:10:00Z" finished-at="2015-04-19T15:10:07Z">
+    <test name="Default test" duration-ms="34219" started-at="2015-04-19T13:35:23Z" finished-at="2015-04-19T13:35:57Z">
+      <class name="AmericanAirline">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:AmericanAirline@7cf10a6f]" name="beforeTest" is-config="true" duration-ms="6889" started-at="2015-04-19T15:35:23Z" finished-at="2015-04-19T15:35:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="testMainPage()[pri:0, instance:pl.aa.test.AmericanAirline@16c0663d]" name="testMainPage" duration-ms="41" started-at="2015-04-19T15:10:07Z" finished-at="2015-04-19T15:10:07Z">
+        <test-method status="PASS" signature="testMainPage()[pri:0, instance:AmericanAirline@7cf10a6f]" name="testMainPage" duration-ms="40" started-at="2015-04-19T15:35:30Z" finished-at="2015-04-19T15:35:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMainPage -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:pl.aa.test.AmericanAirline@16c0663d]" name="beforeTest" is-config="true" duration-ms="5757" started-at="2015-04-19T15:10:07Z" finished-at="2015-04-19T15:10:13Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:AmericanAirline@7cf10a6f]" name="beforeTest" is-config="true" duration-ms="4779" started-at="2015-04-19T15:35:30Z" finished-at="2015-04-19T15:35:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="testHomePage()[pri:0, instance:pl.aa.test.AmericanAirline@16c0663d]" name="testHomePage" duration-ms="7782" started-at="2015-04-19T15:10:13Z" finished-at="2015-04-19T15:10:20Z">
+        <test-method status="PASS" signature="testHomePage()[pri:0, instance:AmericanAirline@7cf10a6f]" name="testHomePage" duration-ms="7668" started-at="2015-04-19T15:35:35Z" finished-at="2015-04-19T15:35:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testHomePage -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:pl.aa.test.AmericanAirline@16c0663d]" name="beforeTest" is-config="true" duration-ms="5136" started-at="2015-04-19T15:10:20Z" finished-at="2015-04-19T15:10:26Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:AmericanAirline@7cf10a6f]" name="beforeTest" is-config="true" duration-ms="5290" started-at="2015-04-19T15:35:42Z" finished-at="2015-04-19T15:35:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="testDepatur()[pri:0, instance:pl.aa.test.AmericanAirline@16c0663d]" name="testDepatur" duration-ms="9754" started-at="2015-04-19T15:10:26Z" finished-at="2015-04-19T15:10:35Z">
+        <test-method status="PASS" signature="testDepatur()[pri:0, instance:AmericanAirline@7cf10a6f]" name="testDepatur" duration-ms="9535" started-at="2015-04-19T15:35:48Z" finished-at="2015-04-19T15:35:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDepatur -->
-      </class> <!-- pl.aa.test.AmericanAirline -->
+      </class> <!-- AmericanAirline -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

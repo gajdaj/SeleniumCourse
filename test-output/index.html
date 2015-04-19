@@ -48,7 +48,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\jakub\AppData\Local\Temp\testng-eclipse--1341721414\testng-customsuite.xml</span>
+                    <span>C:\Users\jakub\AppData\Local\Temp\testng-eclipse-1242427866\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -101,17 +101,17 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="pl.aa.test.AmericanAirline" hash-for-method="testDepatur">testDepatur</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="AmericanAirline" hash-for-method="testDepatur">testDepatur</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="pl.aa.test.AmericanAirline" hash-for-method="testHomePage">testHomePage</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="AmericanAirline" hash-for-method="testHomePage">testHomePage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="pl.aa.test.AmericanAirline" hash-for-method="testMainPage">testMainPage</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="AmericanAirline" hash-for-method="testMainPage">testMainPage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -129,7 +129,7 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">pl.aa.test.AmericanAirline</span>
+              <span class="class-name">AmericanAirline</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -158,7 +158,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\jakub\AppData\Local\Temp\testng-eclipse--1341721414\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\jakub\AppData\Local\Temp\testng-eclipse-1242427866\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -167,7 +167,10 @@
 &lt;suite name=&quot;Default suite&quot;&gt;
   &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;pl.aa.test.AmericanAirline&quot;/&gt;
+      &lt;class name=&quot;pl.aa.pages.MainPage&quot;/&gt;
+      &lt;class name=&quot;AmericanAirline&quot;/&gt;
+      &lt;class name=&quot;pl.aa.pages.HomePage&quot;/&gt;
+      &lt;class name=&quot;pl.aa.patterns.PatternPage&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -181,7 +184,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Default test (1 class)</span>
+                <span class="test-name">Default test (4 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -210,16 +213,16 @@ data.addColumn('number', 'Time (ms)');
 data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testDepatur')
-data.setCell(0, 2, 'pl.aa.test.AmericanAirline')
-data.setCell(0, 3, 9754);
+data.setCell(0, 2, 'AmericanAirline')
+data.setCell(0, 3, 9535);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testHomePage')
-data.setCell(1, 2, 'pl.aa.test.AmericanAirline')
-data.setCell(1, 3, 7782);
+data.setCell(1, 2, 'AmericanAirline')
+data.setCell(1, 3, 7668);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'testMainPage')
-data.setCell(2, 2, 'pl.aa.test.AmericanAirline')
-data.setCell(2, 3, 41);
+data.setCell(2, 2, 'AmericanAirline')
+data.setCell(2, 3, 40);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
@@ -250,30 +253,30 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">pl.aa.test.AmericanAirline</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">AmericanAirline</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">beforeTest</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testMainPage</span>
-                <span class="method-start">6378 ms</span>
+                <span class="method-start">6889 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">beforeTest</span>
-                <span class="method-start">6421 ms</span>
+                <span class="method-start">6931 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testHomePage</span>
-                <span class="method-start">12178 ms</span>
+                <span class="method-start">11710 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">beforeTest</span>
-                <span class="method-start">19962 ms</span>
+                <span class="method-start">19379 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testDepatur</span>
-                <span class="method-start">25098 ms</span>
+                <span class="method-start">24669 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
