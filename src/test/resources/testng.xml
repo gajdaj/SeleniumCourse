@@ -1,0 +1,12 @@
+<suite name="Scheme_Edit" parallel="tests" thread-count="2">  
+   <test name="Testy">
+    <classes>
+       <class name="AmericanAirline">
+       <methods>
+         <include name = "testHomePage"/>
+         <include name = "testDepatur"/>
+       </methods>
+       </class>
+    </classes>
+   </test>
+</suite>  
